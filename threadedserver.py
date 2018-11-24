@@ -1,8 +1,8 @@
 import select
 import socket
-import Sockets
 import threading
 from time import sleep
+from sockets import Sockets
 
 
 class ThreadedServer:
