@@ -18,6 +18,10 @@ class Server(ThreadedServer):
         conn, addr = conn_info
         Sockets.send(conn, "Hello world!")
         Sockets.close(conn)
+
+server = Server(1234)
+server.start()
+...
 ```
 
 ### Echo Server
@@ -36,4 +40,8 @@ class Server(ThreadedServer):
 
         if data not in [1, 2]: Sockets.send(conn, data)
         Sockets.close(conn)
+
+server = Server(1234)
+server.start()
+...
 ```
