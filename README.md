@@ -2,11 +2,7 @@
 
 > Python base class for easily creating socket servers.
 
-##DEPENDENCIES
-
-None
-
-##USAGE
+## USAGE
 
 ### Hello World Server
 
