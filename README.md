@@ -6,7 +6,7 @@
 
 ### Hello World Server
 
-````python
+```python
 from sockets import Sockets
 from threadedserver import ThreadedServer
 
@@ -22,7 +22,7 @@ class Server(ThreadedServer):
 
 ### Echo Server
 
-````python
+```python
 from sockets import Sockets
 from threadedserver import ThreadedServer
 
